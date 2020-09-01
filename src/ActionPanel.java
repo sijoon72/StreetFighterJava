@@ -62,7 +62,7 @@ implements ActionListener {
     long lastFrameTime1 = 0;
     long lastFrameTime2 = 0;
     boolean collided = false;
-
+//
     ActionPanel(int choice1, int choice2, int width, int height) throws IOException {
         if (choice1 == 1) {
             this.user = new Character("ryu");
